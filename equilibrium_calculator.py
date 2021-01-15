@@ -5,6 +5,7 @@ try:
     forward_rate_constant = float(input("What is the value of the forward rate constant as a decimal? "))
     reverse_rate_constant = float(input("What is the value of the reverse rate constant as a decimal? "))
     number_of_calculations = int(input("How many calculations would you like to make? "))
+    break
 except ValueError:
     print("Please input a number, not letters")     
 
