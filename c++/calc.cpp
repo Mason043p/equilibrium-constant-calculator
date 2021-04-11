@@ -29,6 +29,9 @@ int main()
         std::cout << "what is the value of the reverse rate constant as a decimal?" << '\n';
         std::cin >> reverse_rate_constant;
         std::cout << "How many calculations would you like to make?" << '\n';
+        std::cin >> number_of_calculations;
+        
+        
         for (int i=0; i < number_of_calculations ; i++) {
                 formula();
         }
