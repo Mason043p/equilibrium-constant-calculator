@@ -1,8 +1,8 @@
 #include <iostream>
 
-int a {};
-int b {};
-int q {};
+float a {};
+float b {};
+float q {};
 float forward_rate_constant {};
 float reverse_rate_constant {};
 int number_of_calculations {};
