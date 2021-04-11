@@ -32,7 +32,7 @@ int main()
         std::cin >> number_of_calculations;
         
         
-        for (int i=0; i < number_of_calculations + 1 ; i++) {
+        for (int i=0; i < number_of_calculations  ; i++) {
                 formula();
         }
 }
