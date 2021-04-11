@@ -5,7 +5,7 @@ int b {};
 int q {};
 float forward_rate_constant {};
 float reverse_rate_constant {};
-
+int number_of_calculations {};
 
 void formula()
 {
@@ -28,7 +28,10 @@ int main()
         std::cin >> forward_rate_constant;
         std::cout << "what is the value of the reverse rate constant as a decimal?" << '\n';
         std::cin >> reverse_rate_constant;
-        formula();
+        std::cout << "How many calculations would you like to make?" << '\n';
+        for (int i=0; i < number_of_calculations ; i++) {
+                formula();
+        }
 }
 
 
